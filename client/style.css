@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    font-family: arial;
+    color: #333;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form_box{
+    display:flex;
+    flex-flow: column wrap;
+    
+    
+}
+
+input {
+    
+    padding: 8px 16px;
+    font-size: 1em;
+    margin: 10px auto;
+    width: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    outline: none !important;
+}
+
+input.valid {
+    border-color: green;
+}
+
+input.invalid {
+    border-color: orangered;
+}
+
+input+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: orangered;
+    /*to hide it normally*/
+    opacity: 0;
+    height: 0
+}
+
+input.invalid+p {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px;
+}
+#message{
+   
+    font-size: 1.5rem;
+    background-color: #333;
+    color: #ccc;
+}
+
+#captcha_container{
+    margin: 0 auto;
+    width: 304px;
+    
+}

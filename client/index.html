@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Imagekit.io</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async></script>
+</head>
+
+<body onload="check()">
+    <div class="container">
+        <h1>New User Signup</h1>
+        <form class="user_details" method="post">
+
+            <div class="form_box">
+                <input type="text" name="username" placeholder="username">
+                <p>Username must be and contain 5 - 12 characters</p>
+
+                <input type="text" name="email" placeholder="email">
+                <p>Email must be a valid address, e.g. me@mydomain.com</p>
+
+                <input type="password" name="password" placeholder="password">
+                <p>Password must be alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
+
+
+                <div id="captcha_container"></div>
+
+                <input type="submit" value="Register" id="submitBtn">
+
+
+            </div>
+
+        </form>
+        <span id="message"></span><br>
+    </div>
+
+
+    <script src="main.js"></script>
+
+
+    </script>
+
+</body>
+
+</html>
