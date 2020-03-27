@@ -2,16 +2,14 @@
 
 This is a simple web app to take inputs from user and save their data to db but 
 if a user tries to register more than thrice from same IP, a captcha should be presented for each subsequent request.
-you can find working example [here]().
+you can find working example [here](https://registrationform.z22.web.core.windows.net/).
 It uses nodejs with express framework backed by mongodb for storing data.
 
 ## Getting Started
 
 There are two ways you can run this project on your local system,
-1. With node
+1. With node and local mongodb server
 
-     -> you'll need a local mongo server running on port 27017
-   -
    `git clone https://github.com/devnrj07/user-registration-1.git`
 
     `cd server`
@@ -19,6 +17,7 @@ There are two ways you can run this project on your local system,
      `npm install`
 
      `npm start`
+     
 2. With Docker 
 
     `git clone https://github.com/devnrj07/user-registration-1.git`
