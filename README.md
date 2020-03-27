@@ -8,7 +8,8 @@ It uses nodejs with express framework backed by mongodb for storing data.
 ## Getting Started
 
 There are two ways you can run this project on your local system,
-1. With node (bold)
+1. With node
+
     Note : you'll need a local mongo server running on port 27017
    -
    `git clone https://github.com/devnrj07/user-registration-1.git`
